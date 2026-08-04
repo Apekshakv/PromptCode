@@ -40,7 +40,7 @@ const navigate = useNavigate();
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer `,
+          
         },
         body: JSON.stringify({
           model: "llama-3.3-70b-versatile",
